@@ -6,6 +6,8 @@ export default function Home() {
     <>
       <Htag tag="h1">заголовок</Htag>
       <Button typeButton="primary">Узнать подробнее</Button>
+      <div style={{ marginBottom: 30 }}></div>
+      <Button typeButton="primary">Узнать подробнее</Button>
     </>
   );
 }
