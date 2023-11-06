@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--black);
+  background-color: #f5f6f8;
+}
+
+:root {
+  --greyLight: #ebebeb;
+  --black: #3b434e;
+  --white: white;
+  --primary: #7653fc;
+  --primary-hover: #4d24f1;
+
+  --red: #fc836d;
+  --green: #1dc37e;
+  --grenLight: #c8f8e4;
+  --font-family: "Noto Sans", sans-serif;
+}
