@@ -1,0 +1,54 @@
+.tag {
+  color: #3b434e;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
+  border-radius: 20px;
+  min-width: 45px;
+  min-height: 19px;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+}
+.tag a,
+.tag a:visited,
+.tag a:link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.l {
+  padding: 5px 12px;
+}
+
+.m {
+  padding: 2px 9px;
+  font-size: 10px;
+}
+
+.ghost {
+  /* background-color: var(--greyLight); */
+  border: 1px solid var(--greyLight);
+}
+
+.green {
+  background-color: var(--grenLight);
+  color: var(--green);
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.primary {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.red {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #de0000;
+  border-color: none;
+}
+
+/* "" | "" | "primary" | "" */
