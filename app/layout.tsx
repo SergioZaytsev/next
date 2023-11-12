@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./normalize.css";
 
 import "./globals.css";
+import style from "./layaout.module.css";
+import Header from "./components/Header/Header";
+import FooterM from "./components/Footer/FooterM";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +26,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className={style.grid__wrapper}>
+          <Header className={style.header}></Header>
+          <aside className={style.sidebar}>sibebar</aside>
+          <section className={style.body}>{children}</section>
+          <FooterM className={style.footer}></FooterM>
+        </div>
+      </body>
     </html>
   );
 }

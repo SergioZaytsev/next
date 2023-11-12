@@ -1,0 +1,26 @@
+.footer {
+  padding: 23px 32px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-content: center;
+  justify-items: center;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:link {
+  color: currentColor;
+}
+
+@media (min-width: 745px) {
+  .footer {
+    column-gap: 40px;
+    grid-template-columns: 1fr minmax(min-content, auto) minmax(min-content, auto);
+  }
+}
